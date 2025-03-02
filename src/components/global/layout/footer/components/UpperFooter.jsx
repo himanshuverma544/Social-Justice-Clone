@@ -42,8 +42,8 @@ export default function UpperFooter() {
 
       <div className="col-2 flex justify-center items-center px-5 py-10 text-center font-semibold text-darkGreen">
         <ul className="links flex flex-col gap-5 text-lg">
-          {[AboutUs, ContactUs, Gallery, TermsAndConditions, CopyrightPolicy].map(route =>
-            <li className="link-item">
+          {[AboutUs, ContactUs, Gallery, TermsAndConditions, CopyrightPolicy].map((route, index) =>
+            <li key={index} className="link-item">
               <Link href={route.pathname}>
                 {route.title}
               </Link>
