@@ -108,7 +108,7 @@ export default function Activities() {
         isPlaying={false}
         interval={3000}
       >
-        <Slider className="activities-slider w-[95vw] overflow-hidden">
+        <Slider className="activities-slider w-[90vw] overflow-hidden">
           {activities.length > 0 &&
             activities.map((activity, index) =>
               <Slide

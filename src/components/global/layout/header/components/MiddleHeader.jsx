@@ -5,10 +5,9 @@ import Image from "next/image";
 export default function MiddleHeader() {
 
   return (
-    <div className="middle-header flex flex-col items-center gap-5 px-5 pt-5 pb-10 bg-lightYellow md:flex-row md:justify-between md:pb-5">
+    <div className="middle-header flex flex-col items-center gap-5 px-5 py-5 bg-lightYellow md:flex-row md:justify-between">
 
       <div className="left-cont flex justify-between items-center gap-5">
-
         <div className="img-cont relative w-[6rem] h-[8rem]">
           <Image
             fill
@@ -26,7 +25,6 @@ export default function MiddleHeader() {
             Government of India.
           </div>
         </div>
-
       </div>
 
       {/* To make it work well responsively, it has been done this way. */}
