@@ -8,6 +8,7 @@ export default function Hero() {
       <Image
         className="object-cover object-center"
         fill
+        priority
         src="/images/hero.png"
         alt="hero-image"
       />
