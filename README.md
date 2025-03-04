@@ -3,7 +3,7 @@
 - Tailwind CSS
 
 # Design
-- [https://www.figma.com/design/2mEuieWeezmnxqc98w8r5J/Untitled](Landing Page)
+- (Landing Page)[https://www.figma.com/design/2mEuieWeezmnxqc98w8r5J/Untitled]
 
 # Deployment
 - Vercel
